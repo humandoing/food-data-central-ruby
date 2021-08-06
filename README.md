@@ -12,7 +12,7 @@ support for XML in the future.
 Add the gem to your Gemfile:
 
 ```ruby
-gem 'food-data-central-ruby', '~> 0.1'
+gem 'food-data-central-ruby', '~> 0.1', git: 'https://github.com/humandoing/food-data-central-ruby', branch: 'main'
 ```
 
 ## Setting the API Key
