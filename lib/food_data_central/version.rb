@@ -1,0 +1,3 @@
+module FoodDataCentral
+  VERSION = "0.1"
+end
