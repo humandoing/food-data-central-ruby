@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "faraday"
   spec.add_dependency "json"
-  spec.add_dependency "rspec", "3.8"
-  spec.add_dependency "factory_girl", "~> 4.0"
+  spec.add_dependency "rspec", ">= 3.8"
+  spec.add_dependency "factory_girl", ">= 4.0"
 end
