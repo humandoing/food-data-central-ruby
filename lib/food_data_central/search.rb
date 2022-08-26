@@ -18,7 +18,7 @@ module FoodDataCentral
         req.headers['Content-Type'] = 'application/json'
         req.body = sanitized_options.to_json
       end
-      json = JSON.parse(response.body)
+      json = JSON.parse(response.body) rescue { "error" => "Failed to fetch results", "status" => 500 }
       FoodDataCentral::SearchResults.new(json)
     end
 
